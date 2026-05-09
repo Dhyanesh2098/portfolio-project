@@ -8,7 +8,7 @@ function App() {
 
   useEffect(() => {
 
-    axios.get('http://localhost:5000/projects')
+    axios.get('https://portfolio-project-3efv.onrender.com/projects')
       .then((res) => {
         setProjects(res.data);
       })
